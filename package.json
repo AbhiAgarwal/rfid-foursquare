@@ -1,0 +1,15 @@
+{
+  "name": "rfid-checkin",
+  "version": "0.0.0",
+  "description": "Using RFID Tags to check-in to a location on Foursquare",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js"
+  },
+  "author": "",
+  "license": "BSD",
+  "dependencies": {
+    "node-foursquare": "~0.2.0",
+    "express": "~3.4.8"
+  }
+}
