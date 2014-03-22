@@ -10,6 +10,7 @@
   "license": "BSD",
   "dependencies": {
     "node-foursquare": "~0.2.0",
-    "express": "~3.4.8"
+    "express": "~3.4.8",
+    "serialport": "~1.3.1"
   }
 }

@@ -62,7 +62,7 @@ void loop(void) {
     impSerial.print("$");
     writeHexToImp(uid, uidLength);
     impSerial.print("#");
-    Serial.println("\r\n");
+    Serial.print("\r\n");
     lastReadTime = millis();
     
     if (uidLength == 4)
@@ -164,7 +164,7 @@ void printHexPlain(const byte * data, const uint32_t numBytes)
     else
       Serial.print((char)data[szPos]);
   }
-  Serial.println("");
+  //Serial.println("");
 }
 
 void writeHexToImp(const byte * data, const uint32_t numBytes)
