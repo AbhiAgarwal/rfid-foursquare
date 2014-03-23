@@ -62,7 +62,7 @@ void loop(void) {
     impSerial.print("$");
     writeHexToImp(uid, uidLength);
     impSerial.print("#");
-    Serial.print("\r\n");
+    Serial.print("\n");
     lastReadTime = millis();
     
     if (uidLength == 4)
