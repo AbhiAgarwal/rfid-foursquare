@@ -12,4 +12,6 @@ Using a RFID scanner with your phone to checkin to the location on Foursquare.
 Initializing
 ===============
 
-Navigate to `` nodejs_side/server.js `` and change clientId & clientSecret depending on the Foursquare developer API.
+Navigate to `` nodejs_side/server.js ``* and change clientId & clientSecret depending on the Foursquare developer API.
+
+* The code is pretty damn hacky.
