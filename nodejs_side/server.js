@@ -6,9 +6,9 @@
 // Foursquare
 var config = {
   'secrets' : {
-    'clientId' : 'S0RJ4K5GPCNXAXZBYN3ZNOFIRQGS0KEP0VOMQKFNW1HC4HIR',
-    'clientSecret' : 'KFCLE3FRJX05HACKRNFWSADFU5UXGGQJQYUGFKQEBGQ2VY4Y',
-    'redirectUrl' : 'http://lvh.me:3000/callback'
+    'clientId' : '=',
+    'clientSecret' : '',
+    'redirectUrl' : ''
   }
 };
 var foursquare = require('node-foursquare')(config);
